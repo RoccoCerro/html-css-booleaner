@@ -8,6 +8,29 @@ main{
     margin-right: 75px;
 }
 
+ul{
+	padding: 0;
+    margin-left: 20px;
+}
+
+table{
+    table-layout: auto;
+    width: 100%;
+    border: 1px solid red; 
+    text-align: left;   
+}
+
+th{
+    
+}
+
+td:nth-child(-n + 2) {
+    width: 250px;
+    height: 20px;
+}
+
+
+
 .main-header{
     height: 85px;
     background-image: url("../img/pattern.png");
@@ -23,6 +46,7 @@ main{
 #down-title{
     font-size: 25px;
     color: rgb(100, 100, 100);
+    margin: 0;
 }
 
 #down-title-2{
@@ -32,11 +56,23 @@ main{
 
 #img-tim-1{
     display: block;
-    width: 700px;
     margin-bottom: 8px;
     margin-top: 25px;
 }
 
 #img-legend{
     font-size: 15px;
+}
+
+#evidenziato{
+    background-color: yellow;
+}
+
+.head-table{
+    background-color: rgb(0, 60, 255);
+    color: white;
+}
+
+.tr-background{
+    background-color: lightblue;
 }
