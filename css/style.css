@@ -29,3 +29,14 @@ main{
     font-size: 15px;
     color: rgb(100, 100, 100);
 }
+
+#img-tim-1{
+    display: block;
+    width: 700px;
+    margin-bottom: 8px;
+    margin-top: 25px;
+}
+
+#img-legend{
+    font-size: 15px;
+}
