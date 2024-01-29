@@ -1,8 +1,14 @@
 body{
-    margin: 0px;
+    margin: 0;
 }
 
 main{
+    margin-top: 10px;
+    margin-left: 75px;
+    margin-right: 75px;
+} 
+
+footer{
     margin-top: 10px;
     margin-left: 75px;
     margin-right: 75px;
@@ -16,12 +22,7 @@ ul{
 table{
     table-layout: auto;
     width: 100%;
-    border: 1px solid red; 
     text-align: left;   
-}
-
-th{
-    
 }
 
 td:nth-child(-n + 2) {
@@ -29,13 +30,43 @@ td:nth-child(-n + 2) {
     height: 20px;
 }
 
-
-
 .main-header{
     height: 85px;
     background-image: url("../img/pattern.png");
     background-size: 250px;
     background-color: rgb(0, 128, 255);
+}
+
+.head-table{
+    background-color: rgb(0, 60, 255);
+    color: white;
+}
+
+.tr-background{
+    background-color: lightblue;
+}
+
+.section-table{
+    margin-bottom: 40px;
+}
+
+.img-footer-1{
+    background-image: url(../img/monitor.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    color: white;
+    padding: 8px;
+    font-size: large;
+}
+
+.img-footer-2{
+    background-image: url(../img/graph.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 8px;
+    font-size: large;
 }
 
 #title{
@@ -68,11 +99,7 @@ td:nth-child(-n + 2) {
     background-color: yellow;
 }
 
-.head-table{
-    background-color: rgb(0, 60, 255);
-    color: white;
-}
-
-.tr-background{
-    background-color: lightblue;
+#title-footer{
+    color: rgb(54, 56, 58);
+    font-size: large;
 }
