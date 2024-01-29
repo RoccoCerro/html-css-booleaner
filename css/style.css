@@ -1,11 +1,31 @@
 body{
-    margin:0px;
+    margin: 0px;
+}
+
+main{
+    margin-top: 10px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 .main-header{
-    height: 75px;
+    height: 85px;
     background-image: url("../img/pattern.png");
-    background-size: 30%;
+    background-size: 250px;
     background-color: rgb(0, 128, 255);
 }
 
+#title{
+    margin: 0;
+    font-size: 80px;
+}
+
+#down-title{
+    font-size: 25px;
+    color: rgb(100, 100, 100);
+}
+
+#down-title-2{
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+}
